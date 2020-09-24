@@ -19,6 +19,7 @@ footer{
 	margin-top: 120px;
 }
 
+
 #container {
 
 	width: 1000px;
@@ -61,7 +62,7 @@ h4{
 	margin-bottom: 0px;
 }
 h5{ 
-margin-left: 160px;
+margin-left: 380px;
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -70,6 +71,15 @@ margin-left: 160px;
 	width: 200px;
 	font-family: 'Aleo';
 display: inline-block;
+text-align: center;
+}
+h6{
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 80px;
+	font-family: 'Alex Brush';font-size: 45px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 .two{
 	width: 300px;
@@ -104,6 +114,30 @@ display: inline-block;
     display: inline-block;
 	line-height: 2;
 }
+#intro3{
+	text-align: center;
+    font-size: 15px;
+    font-family: 'Aleo', sans-serif;
+    float: center;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 450px;
+    display: inline-block;
+	line-height: 2;
+}
+#intro4{
+	text-align: center;
+    font-size: 15px;
+    font-family: 'Aleo', sans-serif;
+    float: center;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 450px;
+    display: inline-block;
+	line-height: 2;
+}
 .myphoto {
 	border-radius: 50px;
 	width: 400px;
@@ -121,6 +155,11 @@ display: inline-block;
 	border-radius: 40%;
 	width: 125px;
 	
+	
+}
+.photo {
+	border-radius: 40%;
+	width: 125px;
 	
 }
 .video {
@@ -215,12 +254,45 @@ div.polaroid1 {
 	margin-bottom: 0;
 	background: white;
 }
+#container3 {
+
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: white;
+}
+#container4 {
+
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: white;
+	height: 4760px;
+}
 .insta{
 	margin-right: 450px;
 	margin-left: 420px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 0%;
+}
+.insta1{
+	margin-right: 450px;
+	margin-left: 420px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 0%;
+}
+.youtube{
+	margin-right: 450px;
+	margin-left: 420px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 30%;
 }
 .world{
 	border-radius: 50px;
@@ -232,6 +304,30 @@ div.polaroid1 {
 }
 .location{
 	width: 100px;
-	margin-left: 50px;
+	margin-left: 430px;
 	display: inline-block;
+}
+.video1{
+	display: inline-block;
+	margin-left: 220px;
+	margin-top: 20px;
+}
+.newyork{
+	border-radius: 0%;
+	width: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 40px;
+	
+}
+.row: after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px;
 }
